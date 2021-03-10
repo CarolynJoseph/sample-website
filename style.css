@@ -1,0 +1,76 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    background-color: whitesmoke;
+    padding: 0.5% 0;
+    font-size: 2em;
+}
+
+.navbar-default .navbar-nav li a{
+    color:#272727;
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active {
+    color: #616464;
+}
+#home {
+    background: url('main.jpg') no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.main-text{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.main-text h1 {
+    font-weight: 900;
+    color: #fdfcfc;
+    font-family: Redressed;
+    font-size: 4em;
+}
+.main-text h3{
+    font-weight: 900;
+    color: #fdf9f9;
+    font-family: Redressed;
+    font-size: 2em;}
+.padding {
+    padding: 80px 0px;;
+}
+.padding img{
+    width: 100%;
+
+}
+footer{
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 5% 5% 10% 5%;
+}
+.fa {
+    padding: 15px;
+    font-size: 25px;
+    color: #272727;
+}
+.fa:hover{
+    text-decoration: none;
+    color: #616464;
+
+}
+
+@media (max-width: 750px){
+    main-text h1{
+        font-size: 300%;
+    }
+    .fa {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .icon{
+        padding-top: 5%;
+        max-width: 100px;
+    }
+}
