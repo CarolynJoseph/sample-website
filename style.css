@@ -10,7 +10,18 @@ html, body{
 .navbar a{
     font-size: 3rem;
 }
-
+.main-text h1 {
+    font-weight: 900;
+    color: #272727;
+    font-family: Redressed;
+    font-size: 4em;
+}
+.main-text h3{
+    font-weight: 900;
+    color: #272727;
+    font-family: Redressed;
+    font-size: 2em;
+}
 #home {
     background: url('main.jpg') no-repeat center center fixed;
     display: table;
@@ -19,24 +30,15 @@ html, body{
     width: 100%;
     background-size: cover;
 }
+
 .main-text{
     display: table-cell;
     text-align: center;
     vertical-align: middle;
 }
-.main-text h1 {
-    font-weight: 900;
-    color: #fdfcfc;
-    font-family: Redressed;
-    font-size: 4em;
-}
-.main-text h3{
-    font-weight: 900;
-    color: #fdf9f9;
-    font-family: Redressed;
-    font-size: 2em;}
+
 .padding {
-    padding: 80px 0px;;
+    padding: 80px 0px;
 }
 .padding img{
     width: 100%;
@@ -49,6 +51,8 @@ html, body{
 .places{
     width: 100%;
     height: 100%;
+    margin-bottom: 15%;
+
 }
 .places h2{
     font-size: 3.5rem;
@@ -72,22 +76,31 @@ html, body{
 }
 footer{
     width: 100%;
-    background-color: whitesmoke;
-    padding: 5% 5% 10% 5%;
-    margin-top: 25px;
+
+    background-color: #272727;
+    color: white;
+    position: relative;
+    bottom: 0%;
+    margin-top: -100px;
+    left: 0%;
+    right: 0%;
+    padding: 1%;
+
+
 }
 .fa {
     padding: 15px;
     font-size: 25px;
-    color: #272727;
+    color: white;
 }
 .fa:hover{
     text-decoration: none;
-    color: #616464;
+    color: #98edf0;
 
-}
+} 
 
-@media (max-width: 750px){
+
+@media (max-width: 500px){
     main-text h1{
         font-size: 300%;
     }
@@ -99,4 +112,20 @@ footer{
         padding-top: 5%;
         max-width: 100px;
     }
+    .footer{
+        position: absolute;
+        margin-bottom: 0px;
+        height: 100px;
+    
+    }
+    /* .last-card{
+        margin-bottom: 100vh;
+    } */
+    /* .places{
+        margin-bottom: 100%;
+    } */
 }
+
+
+
+
